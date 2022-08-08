@@ -20,9 +20,9 @@ If you find our work useful, please consider citing the below paper:
 ## Installation
 1. From any of the notebooks, clone the Git repo (original or this fork):
 
-`!git clone https://github.com/keitakurita/contextual_embedding_bias_measure.git`
+`!git clone https://github.com/lleviraz/contextual_embedding_bias_measure.git`
 
-2. Install the specific versions of allennlp and overrides:
+2. Install the specific versions (legacy...) of `allennlp`,`spacy` and `overrides`:
 
 `!pip install allennlp==0.9.0 spacy==2.1.4 overrides==3.1.0 -q`
 
