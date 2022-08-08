@@ -16,3 +16,22 @@ If you find our work useful, please consider citing the below paper:
   year={2019}  
 }
 ```
+# Installation
+1. From any of the notebooks, clone the Git repo (original or this fork):
+
+`!git clone https://github.com/keitakurita/contextual_embedding_bias_measure.git`
+
+2. Install the specific versions of allennlp and overrides:
+
+`!pip install allennlp==0.9.0 spacy==2.1.4 overrides==3.1.0 -q`
+
+3. Add the following code to download the spacy model (as a warmup):
+
+```
+#warmup of spacy
+from allennlp.common.util import get_spacy_model
+try:
+  get_spacy_model("en", pos_tags=False, parse=True, ner=False)
+except:
+  pass
+```
