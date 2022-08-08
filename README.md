@@ -16,7 +16,8 @@ If you find our work useful, please consider citing the below paper:
   year={2019}  
 }
 ```
-# Installation
+# This fork for contributes the following:
+## Installation
 1. From any of the notebooks, clone the Git repo (original or this fork):
 
 `!git clone https://github.com/keitakurita/contextual_embedding_bias_measure.git`
@@ -35,3 +36,8 @@ try:
 except:
   pass
 ```
+
+## Gender bias 
+- [libs/bias_utils.py](libs/bias_utils.py) - bias calculation utilities grouped in a class: `BiasUtils`
+- [notebooks/gender_bias_in_stress_detection_model.ipynb](notebooks/gender_bias_in_stress_detection_model.ipynb) - Gender bias experiments for stress detection
+
